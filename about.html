@@ -25,31 +25,27 @@
 <h2>南京邮电大学考试查询</h2>
 
 <p>基于<a href="http://www.staticfile.org">staticfile</a>开源的代码修改而成</p>
-
-<p>欢迎提出改进意见，我们的联系方式见<a href="http://www.nupter.org">南邮移动互联网俱乐部主页</a></p>
-
-<p>数据源来自教务处网站，用Office将教务处的Excel表格转成CSV文件，用<code>csv2json.rb</code>这个Ruby脚本将其转换成JSON数据。前端采用AngularJS，一次将JSON全部读取，然后根据搜搜索框的学号查询实时展现数据，ajax请求的bukao2013.json文件包含全部数据。。。载入时间会略长</p>
+<p>数据源来自教务处网站，用Office将教务处的Excel表格转成CSV文件，用<code>csv2json.rb</code>这个Ruby脚本将其转换成JSON数据。前端采用AngularJS，一次将JSON全部读取，然后根据搜搜索框的学号查询实时展现数据</p>
 
 <p>源代码文件结构</p>
 
-<pre><code>
-├── CNAME        
+<pre><code>       
 ├── README.md
 ├── about.html    
-├── favicon.ico
 ├── index.html     
 └── static
+    ├── forkme_right_gray_6d6d6d.png
     ├── app.css
-    ├── app.js     
-    ├── bukao2013.csv
-    ├── bukao2013.json
+    ├── test.js     
+    ├── test.csv
+    ├── test.json
     └── csv2json.rb
 </code></pre>
 </div>
 
 <div id="footer" class="typo wrapper">
   
- <p> <small>&copy; CopyRight 2014 <a href="http://nupter.org">南邮移动互联网俱乐部</a> </small></p>
+ <p> <small>&copy; CopyRight 2014</small></p>
 
   <p>由<a> 苏东生</a> 修改</p>
 </div>
