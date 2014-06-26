@@ -7,7 +7,7 @@ var data = JSON.parse(localStorage.getItem(cacheKey));
 
 if (data === null || data === undefined){
 
-  $.getJSON('static/test2014.json').done(function(json) {
+  $.getJSON('static/test.json').done(function(json) {
     data = json
     localStorage.setItem(cacheKey, JSON.stringify(data));
   });
